@@ -1,0 +1,22 @@
+$primaryColor: #3A46AB;
+$secondaryColor:#4555AF;
+$accentColor: #31E687;
+$textColor: #343434;
+$captionColor: #585858;
+$grayColor : #B7B7B7;
+$blackColor : #000;
+$whiteColor : #fff;
+$redColor: #E15554;
+
+
+:export {
+  primary: $primaryColor;
+  secondary: $secondaryColor;
+  accent: $accentColor;
+  text: $textColor;
+  caption: $captionColor;
+  gray: $grayColor;
+  white: $whiteColor;
+  black: $blackColor;
+  red: $redColor;
+}

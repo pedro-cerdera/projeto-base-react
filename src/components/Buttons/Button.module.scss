@@ -1,0 +1,28 @@
+@import "../../styles/helpers/colors";
+
+.button {
+  border-radius: 10px;
+  display: grid;
+  height: 54px;
+  width: 100%;
+  max-width: 335px;
+  cursor: pointer;
+}
+
+.button:hover,.button:focus{
+  opacity: 0.7;
+}
+
+.mainButton {
+  background-color: $primaryColor;
+  border: none;
+}
+
+.outlineButton {
+  border: 2px solid $primaryColor;
+}
+
+.linkButton, .textButton{
+  border: none;
+  width: auto;
+}

@@ -1,0 +1,44 @@
+@import "../../styles/helpers/colors";
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  color: $textColor;
+}
+
+.subhead{
+  font-size: 20px;
+  font-weight: bold;
+  color: $textColor;
+}
+
+.label{
+  font-size: 16px;
+  font-weight: bold;
+  color: $textColor;
+}
+
+.text {
+  font-size: 16px;
+  font-weight: regular;
+  color: $textColor;
+  line-height: 25px;
+}
+
+.caption {
+  font-size: 14px;
+  font-weight: regular;
+  color: $captionColor;
+}
+
+.link {
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: regular;
+  color: $primaryColor;
+}
+
+.button {
+  font-size: 18px;
+  font-weight: regular;
+}

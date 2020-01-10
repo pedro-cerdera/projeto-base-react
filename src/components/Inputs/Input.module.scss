@@ -1,0 +1,35 @@
+@import "../../styles/helpers/colors";
+
+.input{
+  height: 63px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid $grayColor;
+  padding-left: 11px;
+  padding-right: 11px;
+}
+
+.input:focus{
+  outline: 0;
+  border: 1px solid $primaryColor;
+}
+
+.textInputContainer{
+  display: grid;
+  grid-row-gap: 5px;
+  align-content: start;
+  width: 100%;;
+  max-width: 335px
+}
+
+.label {
+  margin-left: 10px;
+}
+
+.inputIcon{
+  padding-right: 30px;
+}
+
+.errorMessage{
+  color: red;
+}
