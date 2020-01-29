@@ -1,13 +1,20 @@
-import React from 'react';
-import { Redux } from "./redux";
-import { Root } from "./components";
+import React from "react";
 
-function App() {
+import firebase from "firebase/app";
+
+import { Root } from "./components";
+import { Redux } from "./redux";
+
+const App = () => {
+  const firebaseConfig = {
+  };
+  firebase.initializeApp(firebaseConfig);
+
   return (
     <Redux>
       <Root />
     </Redux>
   );
-}
+};
 
 export default App;
